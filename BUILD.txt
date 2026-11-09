@@ -1,0 +1,4 @@
+1. Install Java 21 and Gradle 9.1+ (or open this folder in IntelliJ IDEA).
+2. In this folder run:   gradle build
+3. Your mod is at build/libs/bountyhype-1.0.0.jar  (NOT the -sources jar)
+4. Put it in your Modrinth profile's mods folder with Fabric API 0.138.3+1.21.10 and Fabric Loader.

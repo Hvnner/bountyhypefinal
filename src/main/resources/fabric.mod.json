@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "bountyhype",
+  "version": "${version}",
+  "name": "BountyHype",
+  "description": "Hype alerts when players add to your bounty.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.bountyhype.BountyHypeClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
